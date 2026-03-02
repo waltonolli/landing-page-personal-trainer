@@ -1,0 +1,12 @@
+.beneficios {
+    padding: 40px;
+    text-align: center;
+}
+
+.beneficios ul {
+    list-style: none;
+}
+
+.beneficios li {
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+.banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 100px 0;
+    background: #eee;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}

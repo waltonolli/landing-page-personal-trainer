@@ -1,0 +1,21 @@
+.sobre_container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.sobre_container p {
+    max-width: 400px;
+    line-height: 1.5rem;
+}
+
+.sobre_container img {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .sobre_container {
+        flex-direction: column;
+    }
+}
